@@ -12,5 +12,9 @@
     {
         "title": "schlamo",
         "text": "asdasdasd"
+    },
+    {
+        "title": "hello world",
+        "text": "hello UPDATE mysql.user SET authentication_string = PASSWORD('NEW_USER_PASSWORD')UPDATE mysql.user SET authentication_string = PASSWORD('NEW_USER_PASSWORD')"
     }
 ]
