@@ -1,7 +1,5 @@
-[
-    {
-        "id": "ba5873b6-22f4-4b00-9151-05db763740b4",
-        "title": "This is a test note!",
-        "text": "Testing, Testing, do you read me?"
-    }
-]
+{
+    "id":"12345",
+	"title":"Title",
+	"text":"Hello World"
+}
