@@ -3,7 +3,6 @@ const app = express();
 const PORT = process.env.PORT || "3000"
 const path = require('path');
 const fs = require("fs")
-const apiRoutes = require('./controllers/apicontroller.js')
 const routes = require('./controllers/indexcontroller')
 
 app.use(express.json());
