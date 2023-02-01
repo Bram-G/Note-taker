@@ -30,10 +30,12 @@ router.post("/", (req, res) => {
           res.status(500).send("woopsie!");
           throw err;
         } else {
+          res.send(addNote)
         }
+        res.send(addNote)
       });
     }
-    res.send(noteData);
+    // res.send(noteData)
   });
 });
 router.get("/:id", (req, res) => {

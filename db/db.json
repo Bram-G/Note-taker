@@ -1,5 +1,7 @@
-{
-    "id":"12345",
-	"title":"Title",
-	"text":"Hello World"
-}
+[
+    {
+        "id": "1232456678",
+        "title": "Test",
+        "text": "test test"
+    }
+]
