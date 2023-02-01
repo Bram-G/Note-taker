@@ -30,9 +30,8 @@ router.post("/", (req, res) => {
           res.status(500).send("woopsie!");
           throw err;
         } else {
-          res.json(addNote);
+          res.send("addNote");
         }
-        res.json(addNote);
       });
     }
   });
