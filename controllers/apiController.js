@@ -32,7 +32,7 @@ router.post("/", (req, res) => {
         } else {
           res.json(addNote)
         }
-        res.send(addNote)
+        res.json(addNote)
       });
     }
     
