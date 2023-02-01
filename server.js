@@ -3,8 +3,8 @@ const app = express();
 const PORT = process.env.PORT || "3000"
 const path = require('path');
 const fs = require("fs")
-const apiRoutes = require('./controllers/apiController.js')
-const Routes = require('./controllers/indexController')
+const apiRoutes = require('./controllers/apicontroller.js')
+const Routes = require('./controllers/indexcontroller')
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
